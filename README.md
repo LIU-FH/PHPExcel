@@ -4,7 +4,7 @@ PHPExcel 导入导出
 assets：外部文件
 
 Classes：https://github.com/PHPOffice/PHPExcel,
-文件中的Classes，不需要修改.
+项目中的Classes，不需要修改.
 
 export.php：导出
 
