@@ -30,7 +30,7 @@ for($j=1;$j<=$highestRow;$j++){
         //数字列转换成字母
         $columnIndex = \PHPExcel_Cell::stringFromColumnIndex($k);
         // 读取单元格
-        $data[$j][]=$objPHPExcel->getActiveSheet()->getCell("$columnIndex$j")->getValue();
+        $data[$j][]=$objPHPExcel->getActiveSheet()->getCell("$columnIndex$j")->getFormattedValue();
     }
 }
 print_r($data);
